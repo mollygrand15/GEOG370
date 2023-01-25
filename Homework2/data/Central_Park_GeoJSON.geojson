@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Central_Park_GeoJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Central Park" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -73.981359453659252, 40.768340472026388 ], [ -73.95813144700999, 40.800265220501686 ], [ -73.949544790523518, 40.79685257497502 ], [ -73.972992967851937, 40.764377399801866 ], [ -73.972992967851937, 40.764377399801866 ], [ -73.981359453659252, 40.768340472026388 ] ] ] ] } }
+]
+}
