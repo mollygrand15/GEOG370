@@ -13,37 +13,37 @@
     <p>In order to change the projection model used in each display, I changed the projection using the icon in the bottom right corner in QGIS, and used the Indicatrix Matrix to view how each projection distorted the maps. </p>
 
     <h2>WGS84 Projection</h2>
-    <p>WGS84 uses a conformal projection, and while it preserves direction and the shape of the map, it distorts distance and area. From the circles generated from the Indicatrix Matrix, we can see that this projection especially distorts the distance and area in the poles.</p>
+    <p>WGS84 uses a conformal projection, and while it preserves direction and the shape of geographic regions, it distorts distance and area. From the circles generated from the Indicatrix Matrix, we can see that this projection especially distorts the distance and area near the poles.</p>
     <a href=".//Images/Map_Projection_WGS84.png">
     <img src=".//Images/Map_Projection_WGS84.png" alt="WGS84" width='600px'>
     </a>
 
     <h2>Aitoff Projection</h2>
-    <p>The Aitoff Projection somewhat distorts shapes, areas, distances, directions, and angles. This can be seen by the shapes of the circles all throughout the map, that appear to be stretched in certain areas (especially towards the outer edges of the map).</p>
+    <p>The Aitoff projection somewhat distorts shape, area, distance, and direction. This can be seen by the shapes of the circles all throughout the map, that appear to be stretched in certain areas (especially towards the outer edges of the map).</p>
     <a href=".//Images/Map_Projection_54043.png">
     <img src=".//Images/Map_Projection_54043.png" alt="Aitoff" width='600px'>
     </a>
 
     <h2>Pseudo Mercator</h2>
-    <p>The Pseudo Mercator Projection distorts the relative size of the area of landmasses. Since this projection especially exaggerates areas that are far from the equator, we can see that Greenland appears to be the same size as Africa.</p>
+    <p>The Pseudo Mercator projection preserves the shape of countries but distorts the relative size of the area of landmasses. Since this projection especially exaggerates areas near the north and south pole, we can see that Greenland appears to be the same size as Africa.</p>
     <a href=".//Images/Map_EPSG_3857.png">
     <img src=".//Images/Map_EPSG_3857.png" alt="Pseudo Mercator" width='600px'>
     </a>
 
     <h2>Winkel Sphere</h2>
-    <p>Some observations</p>
+    <p>It appears that the Winkel Sphere projection generally distorts the shapes of regions that are near the east and west edges of the map. The geographic regions in the center of the map appear to maintain their area and shape relatively well.  </p>
     <a href=".//Images/Map_Projection_53018.png">
     <img src=".//Images/Map_Projection_53018.png" alt="Winkel Sphere" width='600px'>
     </a>
 
     <h2>World Cylindrical Equal Area</h2>
-    <p>This projection is not distorted along the equator, but distortion increases towards the poles. This projection extremely distorts the shape of landmasses, and this can be seen by the stretched out circles at the top and bottom of the map.</p>
+    <p>The World Cylindrical Equal Area projection is not distorted along the equator, however distortion does increase towards the poles. This projection extremely distorts the shape of landmasses, and this can be seen by the stretched out circles at the top and bottom of the map.</p>
     <a href=".//Images/Map_Projection_54034.png">
     <img src=".//Images/Map_Projection_54034.png" alt="World Cylindrical Equal Area" width='600px'>
     </a>
 
     <h2>World Equidistant Conic</h2>
-    <p>The World Equidistant Conic projection preserves distances along all meridians and two standard parallels. However, shapes, areas, distances, directions, and angles are all generally distorted throughout the entire map. The distance at the bottom of the image appears to suffer the most from distortion.</p>
+    <p>The World Equidistant Conic projection preserves distances along all meridians and two standard parallels. However, the shape, area, distance, and direction are all generally distorted throughout the entire map. The distance at the bottom of the image appears to suffer the most from distortion.</p>
     <a href=".//Images/Map_Projection_54027.png">
     <img src=".//Images/Map_Projection_54027.png" alt="World Equidistant Conic" width='600px'>
     </a>
@@ -55,13 +55,13 @@
     </a>
 
     <h2>Winkel Tripel</h2>
-    <p>While the Winkel Tripel projection generally distorts shapes, areas, distances, directions, and angles, it maintains a nice balance between size and shape projection throughout the map. </p>
+    <p>While the Winkel Tripel projection generally distorts the shape, area, distance, and direction of geographic regions, it maintains a nice balance between size and shape projection throughout the map. </p>
     <a href=".//Images/Map_Projection_53042.png">
     <img src=".//Images/Map_Projection_53042.png" alt="Winkel Tripel" width='600px'>
     </a>
 
     <h2>World Loximuthal</h2>
-    <p>Some observations</p>
+    <p>In the World Loximuthal projection, it appears that the map becomes more distorted further away from the center. It also appears that the overall shape of the world becomes distorted, and looks like a pumpkin, where the sides are outstretched. </p>
     <a href=".//Images/Map_Projection_54023.png">
     <img src=".//Images/Map_Projection_54023.png" alt="World Loximuthal" width='600px'>
     </a>
