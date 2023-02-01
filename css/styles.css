@@ -1,0 +1,32 @@
+body {
+    font-family:'Trebuchet MS';
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    }
+
+  .menubar {
+    padding: 10px;
+  }
+
+  .menuitem {
+    display: inline-block;
+    background: darkolivegreen;
+    width: 15%;
+    min-width: 120px;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  .menulink {
+    color: white;
+    text-decoration: none;
+  }
+  .menuitem:hover {
+    background: black;
+  }
+  
