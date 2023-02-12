@@ -29,4 +29,32 @@ body {
   .menuitem:hover {
     background: black;
   }
+
+  .dropdown {
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 2.2rem;
+    width: 15%;
+    min-width: 120px;
+  }
   
+  .menuitem:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown-item {
+    background-color: black;
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .dropdown-item:hover {
+    background:#023020;
+    color:white;
+  }
+  
+  .dropdown-item:hover .menulink {
+    color: white;
+  }
