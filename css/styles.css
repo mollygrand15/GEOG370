@@ -48,6 +48,7 @@ body {
     display: block;
     white-space: nowrap;
     text-align: center;
+    min-width: 120px;
   }
 
   .dropdown-item:hover {
