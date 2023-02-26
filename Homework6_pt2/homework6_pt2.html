@@ -8,28 +8,50 @@
 <body>
 <h1>Homework 6 Part 2: Census data ratios and categories </h1>
 <h2>Molly Grand</h2>
+<h3>Ratio - The ratio that I calculated and used in the three maps is the number of high school graduates (ages 18-24) divided by 
+    the total population ages 18 to 24 years. I calculated this ratio because I wanted to show the distribution of the percent of 
+    high school graduates ages 18 to 24 in each county of NY state. 
+</h3>
+<p></p>
 <h3>Equal Interval Map</h3>
-<p>The Equal Interval Map breaks ...  </p>
 <!-- Your map goes here -->
 <a href="HW6_pt2_Equal_Interval.png">
     <img src="HW6_pt2_Equal_Interval.png" alt="Map of NY Educational Attainment: Equal Interval" width='500px'>
     </a>
+<p>The Equal Interval classification method divides the range of attribute values into equally
+        sized classes. The advantages of this method are that the legend is easy to interpret and this map is 
+    suitable for presenting the data to a non-technical audience. The disadvantages of this method are that certain 
+    datasets will end up with most of the data values falling into only one or two classes, while few to no values will 
+    occupy the other classes.
+</p>
 
 <h3>Quantile</h3>
 <a href="HW6_pt2_Quantile.png">
     <img src="HW6_pt2_Quantile.png" alt="Map of NY Educational Attainment: Quantile" width='500px'>
     </a>
+<p>The Quantile classification method places equal numbers of observations into each class. 
+        The main advantage of this method is that it is good at emphasizing the relative position of 
+        the data values. A disadvantage of this method is that features placed within the same 
+        class can have widely differing values, especially if the data is not evenly distributed across
+        its range. 
+</p>
 
 <h3>Natural Breaks</h3>
 <a href="HW6_pt2_Natural_Breaks.png">
     <img src="HW6_pt2_Natural_Breaks.png" alt="Map of NY Educational Attainment: Natural Breaks" width='500px'>
     </a>
+<p>The Natural Breaks classification method utilizes an algorithm to group values into classes that 
+    are separated by distinct break points. The advantage of this method is that it idenfities real classes/
+    clusters within the data and gives an accurate representation of trends. Some disadvantages of this method are
+    that classes can contain widely varying number ranges and that it can be difficult to compare two or more
+    maps with natural breaks classifications because the class ranges are so specific to each dataset.
+</p>
 
 <!-- Link to your shapefile in Github and you CSV -->
 <h2>Data used for this project</h2>
-    <a href="..."> CSV dataset </a>
+    <a href="https://github.com/mollygrand15/GEOG370/blob/main/Homework6_pt2/ACSST5Y2021.S1501_2023-02-22T125747/ACSST5Y2021.S1501-Data.csv"> CSV dataset </a>
     <p></p>
-    <a href="..."> Link to geoJSON </a>
+    <a href="https://github.com/mollygrand15/GEOG370/blob/main/Homework6_pt2/ny_4326.geojson"> Link to geoJSON </a>
 
 </body>
 </html>
