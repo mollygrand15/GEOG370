@@ -12,26 +12,24 @@
 <p></p>
 <h3>Research Question - How many nursing homes in North Carolina are within 5 miles of a hospital? </h3>
 
-<h2>Map</h2>
 <a href="HW8_MAP.png">
-    <img src="HW8_MAP.png" alt="Map of Nursing Homes in NC Within 5 Miles of a Hospital" width='500px'>
+    <img src="HW8_MAP.png" alt="Map of Nursing Homes in NC Within 5 Miles of a Hospital" width='800px'>
     </a>
 <h3>Methods</h3>
 <p>To create this map, I used both the buffer and intersect methods. I first found a polygon of the hospitals in North Carolina and exported it to a 2264 projection. I then uploaded
-    that file and created a 5 mile buffer aroud all of the points. Once I created my new buffered polygon of hospitals, I added a vector of the nursing homes in North Carolina and exported 
-    it to a 2264 projection. I then used the intersect tool to find the nursing homes that fell within the 5-mile hospital buffer. I then created my final map using only
-    that intersected layer.
+    that file and created a 5 mile buffer aroud all of the hospital points. Once I created my new buffered layer of hospitals, I added a vector of the nursing homes in North Carolina and exported 
+    it to a 2264 projection. I then used the intersect tool to find the nursing homes that fell within the 5-mile hospital buffer. Lastly, I created my final map using only the intersected layer.
 </p>
 
 <!-- Link to your data -->
-<h2>Data used for this project</h2>
+<h3>Data Used</h3>
     <a href="https://www.nconemap.gov/datasets/9728285994804c8b9f20ce58bae45899_0/explore?location=35.143891%2C-79.919073%2C7.37"> NC Boundaries Data </a>
     <p></p>
     <a href="https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::nursing-homes/explore?location=40.745281%2C-104.406603%2C6.94"> Nursing Home Data</a>
     <p></p>
     <a href = "https://www.nconemap.gov/datasets/0b5a8fe009144b9bbeb7c4cee9ab7fa9/explore?location=35.154155%2C-79.822344%2C7.47"> Hospital Data</a>
 
-<h2>New Vectors</h2>
+<h3>New Vector Layers</h3>
     <a href="Hospitals_Buffer/Hospitals_Buffer_2264.shp"> Buffered Hospitals </a>
     <p></p>
     <a href="Nursing_Homes_2264/Nursing_Homes_NC.shp"> Nursing Homes in NC </a>
