@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIS Map Competition</title>
+</head>
+<body>
+<h1>GIS Map Competition </h1>
+<h2>Molly Grand</h2>
+</h3>
+<p></p>
+<h3>Molly Grand </h3>
+
+<a href="Map_Competition.png">
+    <img src="Map_Competition.png" alt="Map of Racial Disparities in Proximity to Public Parks by NYC Zip Code" width='800px'>
+    </a>
+<h3>Projection</h3>
+<p>EPSG:2263
+    NAD83 / New York Long Island (US feet)
+</p>
+<h3>Creation Date</h3>
+<p>November 9, 2023
+</p>
+<h3>Methods</h3>
+<p>To create this map, I merged the spatial zip code boundary layer to the table demographic statistics layer in R, and then wrote this table out to spatial layer. I then 
+    imported it into ArcGIS Pro, and created a chloropleth map to show the black population by zip code in NYC. I then mapped the public parks polygon layer.
+</p>
+
+<!-- Link to your data -->
+<h3>Data Used</h3>
+    <a href="https://nycopendata.socrata.com/Recreation/Parks-Properties/enfh-gkve7"> Public Parks Data </a>
+    <p></p>
+    <a href="https://data.cityofnewyork.us/City-Government/Demographic-Statistics-By-Zip-Code/kku6-nxdu"> Demographic Statistics Data</a>
+    <p></p>
+    <a href = "https://geo.nyu.edu/catalog/nyu-2451-34509"> Zip Code Boundary Data</a>
+
+<h3>Vector Layers</h3>
+    <a href=""> Buffered Hospitals </a>
+    <p></p>
+    <a href="zipcode_boundaries/nyu_2451_34509.shp"> Zip Code Boundaries Shapefile </a>
+    <p></p> 
+    <a href="demographics/zip_dem_stats.shp"> Demographic Statistics by Zip Code Shapefile </a>
+    <p></p> 
+    <a href="parks/park_prop.shp"> Public Parks Shapefile </a>
+    <p></p> 
+
+
+</body>
+</html>
